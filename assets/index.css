@@ -1,0 +1,113 @@
+* {
+	color: #fff;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	background-color: #000;
+}
+
+.container {
+	margin-top: 70px;
+}
+
+img.home {
+	position: relative;
+	z-index: 100;
+	margin-top: 10px
+}
+
+.logo {
+	position: relative;
+	z-index: 100;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 100;
+}
+
+.slogan {
+	margin-top: 5px;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+	font-family: AvenirNext-UltraLight;
+	font-size: 13.5pt
+}
+.patent {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+	font-family: AvenirNext-UltraLight;
+	font-size: 10pt;
+	border:1px solid white;
+}
+.store_link{
+	padding-top: 40px;
+	margin-right: 15px;
+	margin-top: 30px;
+	position: relative;
+	z-index: 1;
+	height:64px;
+}
+
+.bottom_link {
+	position: relative;
+	margin-top: 137px;
+	width: 100%;
+	height: 54px;
+	text-align: center;
+}
+
+.bottom_link ul {
+	/* background: url(../images/navigation_BG.png) no-repeat center; */
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0 15px;
+	background-color:  rgba(0,0,0,0.1); 
+	display:inline-block;
+	-webkit-border-radius: 30px; -moz-border-radius: 30px;border-radius: 30px;
+}
+
+.bottom_link ul li {
+	display: inline-block;
+	margin: 8px 10px;
+	font-family: AvenirNext-UltraLight;
+	font-size: 13.5pt;
+}
