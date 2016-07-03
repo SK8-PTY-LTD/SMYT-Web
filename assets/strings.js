@@ -1,9 +1,9 @@
-txt_site_title = 'musical.ly - instant music video';
-txt_header = 'musical.ly';
+txt_site_title = 'SMYT App';
+txt_header = 'SMYT App Header';
 txt_home_slogan = 'instant music video';
 
 txt_hint = 'want to make your own music videos?';
-txt_hint_line1 = 'Get musical.ly app to make';
+txt_hint_line1 = 'Get SMYT app to make';
 txt_hint_line2 = 'your own music videos';
 txt_get_app = 'Get iPhone App';
 txt_share = 'share it:';
